@@ -1,0 +1,1 @@
+android端末のadb操作をmcpにしたい
