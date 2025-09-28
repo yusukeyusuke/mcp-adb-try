@@ -1,0 +1,27 @@
+{
+  "server": {
+    "host": "localhost",
+    "port": 8765,
+    "log_level": "INFO"
+  },
+  "adb": {
+    "path": "adb",
+    "timeout": 30,
+    "retry_attempts": 3
+  },
+  "tools": {
+    "enabled": [
+      "list_devices",
+      "get_device_info",
+      "install_app",
+      "uninstall_app",
+      "push_file",
+      "pull_file",
+      "shell_command",
+      "screenshot",
+      "start_app",
+      "stop_app",
+      "get_logcat"
+    ]
+  }
+}
